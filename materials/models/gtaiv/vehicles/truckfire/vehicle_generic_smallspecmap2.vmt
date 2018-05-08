@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\gtaiv/vehicles/truckfire/vehicle_generic_smallspecmap2"
+	//From here all this stuff has ben modded by Iñaki if u use some of this VMT just give me some credit.
+	"$bumpmap" "models\gtaiv\vehicles\ecpd\norm"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "3"	
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$phongtint"	"[.5 .5 1]"
+	//"$halflambert" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "500"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".5"
+	"$rimlighttint" "[1 0 0]"
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmapFresnelMinMaxExp" "[.5 .6 .4]"
+	"$envmaptint" "[.25 .25 .5]"
+}

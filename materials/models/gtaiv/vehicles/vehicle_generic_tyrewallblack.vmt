@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\gtaiv\vehicles/vehicle_generic_tyrewallblack"
+	"$bumpmap" "models\gtaiv\vehicles/merit/vehicle_generic_tyrewall_normal"
+	"$phongexponenttexture" "models\gtaiv\vehicles\vehicle_generic_tyrewall_spec"
+	"$phong" "1"
+	
+	"$phongboost" "4.9"	
+	"$phongfresnelranges"	"[.9 1 8]"
+	"$halflambert" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1"	
+
+	"$normalmapalphaenvmapmask" 0
+	"$envmapcontrast" 0
+	
+	"$envmapfresnel" "1"
+	"$envmapFresnelMinMaxExp" "[.5 .6 .4]"
+	"$envmaptint" "[.75 .75 .75]"
+}
